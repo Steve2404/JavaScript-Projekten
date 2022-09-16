@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Mythische Zahl</title>
+</head>
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center mt-5">
+          <header>
+            Mythische Zahl
+          </header>
+        </div>
+        
+        <!-- Formular -->
+        <div class="row justify-content-center mt-5 mb-4">   
+          <div class="col-lg-8">   
+            <div class="bg-light p-5 shadow">
+              
+              <form id="formular">
+                <div class="row">
+                  <div class="col">
+                    <input id="number" class="form-control" placeholder="Schätzen Sie eine Zahl (zwischen 0 und 1.000)" />
+                  </div>
+                  <button type="submit" class="btn btn-primary my-3">Schätzen</button>
+                </div>
+                <small class="text-danger">Sie müssen eine Zahl eingeben.</small>
+              </form>
+              
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="row justify-content-center mt-3">
+          <div id="instructions" class="col-lg-8"></div>
+        </div>
+        
+      </div>
+      <script src="prog.js"></script>
+</body>
+</html>
